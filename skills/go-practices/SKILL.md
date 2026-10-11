@@ -5,16 +5,12 @@ description: Apply the author's shared programming practices when writing, modif
 
 # Go Practices
 
-Template. The example below does not represent the author's confirmed preferences.
+Template. General programming preferences have not been defined yet.
 
 ## Rules
 
-<!-- Add rules for package structure, naming, and error handling here. -->
+<!-- Add rules for package structure and naming here. -->
 
-## Example Rule
+## Error Handling
 
-When returning an error, add context about the operation and preserve the original error with `%w`:
-
-```go
-return fmt.Errorf("load config: %w", err)
-```
+When creating or wrapping errors, follow [go-errors](../go-errors/SKILL.md).
